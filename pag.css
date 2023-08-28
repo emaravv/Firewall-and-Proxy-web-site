@@ -16,8 +16,8 @@ body{
     margin-bottom: 50px;
 }
 input{
-    aspect-ratio: 9/4;
-    min-width: 0;
+    
+    min-width: 200px;
     flex: 1 1 10px;
     object-fit: cover;
     opacity: .8;
