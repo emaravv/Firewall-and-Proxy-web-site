@@ -23,7 +23,7 @@ input{
     opacity: .8;
     transition: .3s;
 
-    animation: imgg 1s infinite;
+    animation: imgg 5s infinite;
 }
 input:hover{
     flex:1 1 100px;
@@ -31,15 +31,21 @@ input:hover{
 }
 
 @keyframes imgg {
-    from{
-        width: +90%;
-        height: +90%;
-    }
+    
+    0%   {width: +80%;
+        height: +80%;}
 
-    to{
-        width: +100%;
-        height: +100%;
-    }
+  25%  {width: +90%;
+        height: +90%;}
+
+  50%  {width: +100%;
+        height: +100%;}
+
+  75%  {width: +90%;
+        height: +90%;}
+
+  100% {width: +80%;
+        height: +80%;}
 }
 #conteudo{
     margin-top: 100px;
