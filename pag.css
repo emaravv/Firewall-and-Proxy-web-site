@@ -10,6 +10,7 @@ body{
 .gallery{
     display: flex;
     width: 40%;
+    min-width: 0;
     height: 15rem;
     margin-left: 30%;
     margin-bottom: 50px;
@@ -27,7 +28,8 @@ input:hover{
     opacity: 1;
 }
 #conteudo{
-    margin: 100px 400px 30px 400px;
+    margin-top: 100px;
+    margin-left: 10px;
     font-size: 20px;
     line-height:30px;
 }
@@ -41,6 +43,7 @@ p{
     background-color: #6d36d4;
     color:#adadad;
     padding: 20px;
+    width: 100%;
     
 }
 h4{
