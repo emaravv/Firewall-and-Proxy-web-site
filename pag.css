@@ -49,7 +49,8 @@ input:hover{
 }
 #conteudo{
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 20px;
     line-height:25px;
 }
