@@ -5,6 +5,7 @@
 
 body{
     background: rgba(109, 54, 212, 0.4);
+    text-aling:center;
 }
 
 .gallery{
@@ -52,7 +53,6 @@ input:hover{
     margin-left: 30px;
     font-size: 20px;
     line-height:25px;
-    text-aling:center;
 }
 
 p{
