@@ -56,12 +56,12 @@ input:hover{
 
 p{
     margin: 50px 0 0 0 ;
-    color: #fff;
+    color: ##3b3b3b;
 }
 
 .head{
     background-color: #6d36d4;
-    color:rgba(109, 54, 212, 0.4);
+    color:#fff;
     padding: 20px;
     width: 100%;
     
